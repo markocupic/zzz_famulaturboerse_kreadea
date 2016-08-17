@@ -1,0 +1,15 @@
+Autor: Marko Cupic, m.cupic@gmx.ch
+---------------------------------------
+
+Bei der Efg Formdata Tabelle "fd_angebot" wurde die Operation Datensatz hervorheben/zurücksetzen (toggleFeatured) hinzugefügt.
+Die Tabelle tl_formdata bekommt dafür ein neues Feld "tl_formdata.featured"
+
+Dabei kommen 2 Hooks zum Einsatz.
+"loadDataContainer" für die DCA Anpassungen
+und
+"executePreActions" für die toggleFeatured-Funktion
+
+Alle Änderungen sind updatesicher!
+---------------------------------------
+
+16.08.2016, Oberkirch
